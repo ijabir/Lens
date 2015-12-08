@@ -7,6 +7,13 @@ import android.view.View;
 
 public class Main23Activity extends AppCompatActivity
 {
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main23);
+    }
+
     public void cf2pp(View view)
     {
         Intent intent = new Intent(Main23Activity.this, Main22Activity.class);
